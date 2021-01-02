@@ -9,13 +9,13 @@ const users = [
   },
   {
     name: 'John Doe',
-    email: 'johnDoe@example.com',
+    email: 'john@example.com',
     password: bcrypt.hashSync('123456', 10),
     isAdmin: true,
   },
   {
     name: 'Jane Doe',
-    email: 'janeDoe@example.com',
+    email: 'jane@example.com',
     password: bcrypt.hashSync('123456', 10),
     isAdmin: true,
   },
